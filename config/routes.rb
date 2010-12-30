@@ -1,4 +1,15 @@
 KellyHope::Application.routes.draw do
+
+  match '/about', :to => 'pages#about'
+  match '/projects', :to => 'pages#projects'
+  root :to => 'pages#home'
+
+#  get "pages/home"
+
+#  get "pages/about"
+
+#  get "pages/projects"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
