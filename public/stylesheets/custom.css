@@ -1,0 +1,58 @@
+/*Overall*/
+
+body {
+  background: #609;
+  color: #609;
+}
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+a, a:visited {
+  color: #609;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #306;
+  text-decoration: underline;
+}
+
+/*Parts*/
+
+#header {
+  padding-top: 20px;
+}
+
+#logo {
+  padding: 20px;
+  background: #fff;
+  float: left;
+}
+
+#nav {
+  float: right;
+  background-color: #fff;
+  padding: 5px;
+}
+
+#content {
+  padding: 20px;
+  background: #fff;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#content h1 {
+  font-size: 200%;
+}
+
+.round {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
