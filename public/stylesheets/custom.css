@@ -1,8 +1,18 @@
 /*Overall*/
 
+html {
+  /*code in this element adapted from css-tricks.com/perfect-full-page-background-image*/
+  background: url(../images/snow.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background: #609;
+  background: none;
   color: #609;
+  font-family: arial, verdana, sans-serif;
 }
 
 #container {
@@ -24,31 +34,37 @@ a:hover {
 
 /*Parts*/
 
+.blob {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+}
+
 #header {
   padding-top: 20px;
 }
 
 #logo {
   padding: 20px;
-  background: #fff;
   float: left;
 }
 
 #nav {
   float: right;
-  background-color: #fff;
   padding: 5px;
 }
 
 #content {
   padding: 20px;
-  background: #fff;
   margin-top: 100px;
   text-align: center;
 }
 
 #content h1 {
   font-size: 200%;
+}
+
+#content ul {
+  text-align: left;
 }
 
 .round {
